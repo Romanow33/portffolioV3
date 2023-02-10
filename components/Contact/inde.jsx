@@ -36,7 +36,7 @@ export const Contact = () => {
         color: "white",
       }}
     >
-      <form name="contact-form" netlify>
+      <form name="contact-form" method="POST" netlify>
         <Grid
           container
           direction={"row"}
