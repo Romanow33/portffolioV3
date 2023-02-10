@@ -54,6 +54,7 @@ export const CardBackSide = ({ project }) => {
           <a
             href={`${link}`}
             target="_blank"
+            rel="noreferrer"
             style={{ textDecoration: "none" }}
           >
             <Typography variant="subtitle1" sx={{ color: "white" }}>
@@ -65,6 +66,7 @@ export const CardBackSide = ({ project }) => {
           <a
             href={`${repo}`}
             target="_blank"
+            rel="noreferrer"
             style={{ textDecoration: "none" }}
           >
             <Typography variant="subtitle1" sx={{ color: "white" }}>

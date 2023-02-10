@@ -103,7 +103,8 @@ export const Contact = () => {
       >
         <a
           href="https://drive.google.com/file/d/1eoXbDU4keOTwS1Ho2nZGtxkAbp_-zBzh/view?usp=share_link"
-          target="_blank"
+          target="_blank" 
+          rel="noreferrer"
           style={{ textDecoration: "none" }}
         >
           <Button
@@ -121,6 +122,7 @@ export const Contact = () => {
         <a
           href="https://drive.google.com/file/d/17npbek2y39in2kG5oA2_RkaPjp9hqtgz/view?usp=share_link"
           target="_blank"
+          rel="noreferrer"
           download
           style={{ textDecoration: "none" }}
         >
@@ -146,6 +148,7 @@ export const Contact = () => {
         <a
           href="https://drive.google.com/file/d/1eoXbDU4keOTwS1Ho2nZGtxkAbp_-zBzh/view?usp=share_link"
           target="_blank"
+          rel="noreferrer"
           download
           style={{ textDecoration: "none" }}
         >
@@ -164,6 +167,7 @@ export const Contact = () => {
         <a
           href="https://drive.google.com/file/d/17npbek2y39in2kG5oA2_RkaPjp9hqtgz/view?usp=share_link"
           target="_blank"
+          rel="noreferrer"
           download
           style={{ textDecoration: "none" }}
         >

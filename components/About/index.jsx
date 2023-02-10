@@ -67,10 +67,10 @@ export const About = () => {
             no queria dedicarme a eso toda la vida.
             <br /> Por eso de manera autodidacta comence a introducime en el
             mundo del desarrollo, para mas tarde cursar el Bootcamp
-            <br /> "soy henry" que termino de consolidar mis conocimientos
+            <br /> &quot;soy henry&quot; &quot que termino de consolidar mis conocimientos
             previos y agregar nuevos que mas tarde me servirian para iniciar mi
-            carrera en "start7" la primera empresa donde ejerci como
-            desarrollador, mas tarde fui contratado en "pancake" consolidando el
+            carrera en &quot;start7&quot; la primera empresa donde ejerci como
+            desarrollador, mas tarde fui contratado en &quot;pancake&quot; consolidando el
             inicio de mi carrera en este mundo que tanto me gusta {"/>"}
           </Typography>
           <br />
