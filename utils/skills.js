@@ -14,7 +14,7 @@ import sequelize from "../techicons/sequelize.png";
 import typescript from "../techicons/typescript.png";
 import AWS from "../techicons/aws.png";
 import python from "../techicons/python.png";
-
+import shopify from "../techicons/shopify.png"
 export const skills = [
   { img: jsicon, title: "Javascript" },
   { img: typescript, title: "Typescript" },
@@ -25,6 +25,7 @@ export const skills = [
   { img: expres, title: "Express JS" },
   { img: node, title: "Node JS" },
   { img: sequelize, title: "Sequelize" },
+  { img: shopify, title: "Shopify" },
   { img: cssTwiland, title: "Twiland Css" },
   { img: redux, title: "Redux" },
   { img: mongo, title: "Mongo DB" },

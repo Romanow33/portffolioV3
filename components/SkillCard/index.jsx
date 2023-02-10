@@ -2,7 +2,6 @@ import { Card, Stack, Typography } from "@mui/material";
 import Image from "next/image";
 
 export const SkillCard = ({ image }) => {
-  console.log(image);
   return (
     <Stack>
       <Card

@@ -28,7 +28,7 @@ export const About = () => {
           </Typography>
           <Typography
             variant="title1"
-            sx={{ p: 2, display: { sm: "none", xs: "flex" } }}
+            sx={{ p: 2, display: { sm: "none", xs: "flex" }, fontSize: "20px" }}
           >
             IGNACIO ROMANOW WEB DEVELOPER
           </Typography>
@@ -50,13 +50,16 @@ export const About = () => {
             padding: 3,
             borderRadius: "3%",
             backgroundColor: "white",
+            textAlign: { xs: "center", md: "left" }
           }}
         >
-          <Typography variant="title1" sx={{ fontsize: "40px" }} gutterBottom>
-            {"{"}Hola, Gracias por venir!{"}"}
+          <Typography variant="title1" sx={{ fontsize: "40px", mb: "50px" }} gutterBottom>
+            {"{"}Hola soy Nacho!
           </Typography>
           <br />
-          <Typography variant="subtitle1" sx={{ fontsize: "40px" }}>
+          <br />
+
+          <Typography variant="subtitle1" sx={{ fontsize: "40px", }}>
             {"<"} Naci en Buenos Aires, Argentina y actualmente recido aqui.{" "}
             <br />
             Amo la comida, la musica y por supuesto la informatica.
@@ -69,6 +72,10 @@ export const About = () => {
             carrera en "start7" la primera empresa donde ejerci como
             desarrollador, mas tarde fui contratado en "pancake" consolidando el
             inicio de mi carrera en este mundo que tanto me gusta {"/>"}
+          </Typography>
+          <br />
+          <Typography variant="title1" sx={{ fontsize: "40px", alignSelf: "center", width: "100%" }} gutterBottom>
+            Gracias por pasar!{"}"}
           </Typography>
         </Grid>
         <Grid item xs={1} ml="100px">

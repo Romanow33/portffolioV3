@@ -3,7 +3,6 @@ import CardComponent from "./CardComponent";
 import { CardBackSide, CardFront } from "./CardSides";
 
 export const ProjectCard = ({ project }) => {
-  console.log(project);
   return (
     <Flippy
       flipOnHover={true}

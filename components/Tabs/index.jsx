@@ -25,10 +25,10 @@ export default function CustomTabs({ posisionatedTab, setPosisionatedTab }) {
           textColor="inherit"
           centered={true}
         >
-          <Tab label="WHO I AM" {...a11yProps(0)} />
-          <Tab label="PROJECTS" {...a11yProps(1)} />
-          <Tab label="SKILLS" {...a11yProps(2)} />
-          <Tab label="CONTACT" {...a11yProps(2)} />
+          <Tab label="WHO I AM" {...a11yProps(0)} sx={{ padding: 0, fontSize: { xs: "10px", md: "15px" } }} />
+          <Tab label="PROJECTS" {...a11yProps(1)} sx={{ padding: 0, fontSize: { xs: "10px", md: "15px" } }} />
+          <Tab label="SKILLS" {...a11yProps(2)} sx={{ padding: 0, fontSize: { xs: "10px", md: "15px" } }} />
+          <Tab label="CONTACT" {...a11yProps(2)} sx={{ padding: 0, fontSize: { xs: "10px", md: "15px" } }} />
         </Tabs>
       </Box>
     </Box>

@@ -5,8 +5,17 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import FlagIcon from "@mui/icons-material/Flag";
 import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
 import NoteAddIcon from "@mui/icons-material/NoteAdd";
-
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 export const projects = [
+  {
+    id: 7,
+    title: "Bath Bombs shop",
+    icon: <ShoppingBagIcon sx={{ color: "wihte", fontSize: "150px" }} />,
+    tecnologies: ["Shopify", "Liquid", "React"],
+    description: `Storefront React & Shopify`,
+    link: "https://bathboombs.netlify.app/",
+    repo: "https://github.com/Romanow33/shopify-reactt",
+  },
   {
     id: 1,
     title: "Pancake Live",
@@ -76,4 +85,5 @@ export const projects = [
     link: "https://romanow-climapp33.netlify.app/",
     repo: "https://github.com/Romanow33/wheaterApp",
   },
+
 ];
