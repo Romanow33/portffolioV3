@@ -36,7 +36,7 @@ export const Contact = () => {
         color: "white",
       }}
     >
-      <form name="contact-form" method="POST" netlify>
+      <form name="contact" method="POST" data-netlify="true" >
         <Grid
           container
           direction={"row"}
@@ -103,7 +103,7 @@ export const Contact = () => {
       >
         <a
           href="https://drive.google.com/file/d/1eoXbDU4keOTwS1Ho2nZGtxkAbp_-zBzh/view?usp=share_link"
-          target="_blank" 
+          target="_blank"
           rel="noreferrer"
           style={{ textDecoration: "none" }}
         >
